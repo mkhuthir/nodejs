@@ -1,5 +1,25 @@
 # Node.JS
 
+### To insall Node.JS & npm
+
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+to check the version use the following:
+
+```bash
+nodejs --version
+npm --version
+```
+
+to install from node source use the following
+
+```bash
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+```
+
+
 ### How to update npm
 
 ```bash
